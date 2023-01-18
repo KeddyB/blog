@@ -42,7 +42,7 @@ body {
 }
 
 .wrapper {
-  position: absolute;
+  position: fixed;
   bottom: 30px;
   left: 30px;
   background: var(--color-grey0);
