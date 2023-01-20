@@ -130,7 +130,7 @@ body{
 .h-shape{
     transition: all .4s ease-in-out;
     width: 17%;
-    height: 210%;
+    height: 230%;
     background-color: var(--color-secondary);
     position: absolute;
     left:0;
