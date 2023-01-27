@@ -132,7 +132,7 @@ body{
 .h-shape{
     transition: all .4s ease-in-out;
     width: 17%;
-    height: 140%;
+    height: 200%;
     background-color: var(--color-secondary);
     position: absolute;
     left:0;
@@ -157,7 +157,7 @@ h1{
 }
 h2{
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: var(--color-grey-3);
     margin: 30px 0 12px 0;
     font-weight: 550;
@@ -170,7 +170,7 @@ img{
     margin-bottom: 5%;
 }
 p{
-    font-size: 26px;
+    font-size: 22px;
     font-family: sans-serif;
     display: inline-block;
     color: var(--color-grey-1);
@@ -178,7 +178,7 @@ p{
 h3{
     font-family: sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: var(--color-grey-3);
     margin: 30px 0 12px 0;
     padding: 0 10px;
