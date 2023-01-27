@@ -151,7 +151,7 @@ h1{
     color: var(--color-grey-5);
     text-align: left;
     font-family: papyrus;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 900;
     padding: 10px;
 }
@@ -216,7 +216,7 @@ h3{
     margin-left: 23%;
 }
 ol{
-  font-size: 23px;
+  font-size: 17px;
   padding: 0 35px;
   color: var(--color-white);
 }
