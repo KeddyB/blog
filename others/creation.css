@@ -170,6 +170,7 @@ p{
     font-family: sans-serif;
     line-height: 25px;
     display: inline-block;
+    color: var(--color-grey-1);
 }
 h3{
     font-family: sans-serif;
