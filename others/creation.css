@@ -32,6 +32,9 @@
     line-height:28px;
     box-sizing: border-box;
 }
+body{
+  font-family: poppins, "sans-serif";
+}
 .btn{
     width: 72px;
     height: 23px;
@@ -52,7 +55,7 @@
     bottom: 30px;
     left: 30px;
     background: var(--color-grey-5);
-    max-width: 300px;
+    max-width: 400px;
     border-radius: 3%;
     text-align: center;
     padding: 25px 25px 25px 25px;
