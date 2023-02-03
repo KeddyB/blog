@@ -247,3 +247,18 @@ ol{
     justify-content: center;
     font-size: 1.3rem;
 }
+.contact-icon a .face{
+  color: blue;
+}
+.contact-icon a .tweet{
+  color: skyblue;
+}
+.contact-icon a .git{
+  color: limegreen;
+}
+.contact-icon a .youtube{
+  color: red;
+}
+.contact-icon a .insta{
+  color: purple;
+}
