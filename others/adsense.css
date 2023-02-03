@@ -33,13 +33,16 @@
     box-sizing: border-box;
 }
 body{
-  font-family: poppins, "sans-serif";
+    font-family: poppins, "sans-serif";
+    width: 96%;
+    background: var(--color-grey-5);
+    padding-left: 4%;
 }
 .btn{
     width: 72px;
     height: 23px;
     position: relative;
-    left: 82%;
+    left: 85%;
     top: -30px;
     height: 25px;
     background-color: var(--color-secondary);
@@ -131,15 +134,15 @@ body{
     align-items:center;
 }
 .contact-icon a{
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        justify-content: center;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin: 0 0.4rem;
-        transition: all .4s ease-in-out;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 0.4rem;
+    transition: all .4s ease-in-out;
         
 }
 .contact-icon a i{
@@ -163,22 +166,15 @@ body{
 .contact-icon a .insta{
   color: purple;
 }
-body{
-    background: var(--color-grey-5);
-}
 .h-shape{
     transition: all .4s ease-in-out;
-    width:100%;
+    width: 100%;
     height: 50px;
     background-color: var(--color-secondary);
     position: absolute;
     left:0;
     top:0;
     z-index: -1;
-    border-radius: 2px;
-}
-.right{
-    padding: 1.8% 4%;
 }
 a{
     text-decoration: none;
@@ -191,7 +187,7 @@ h1{
     font-family: papyrus;
     font-size: 17px;
     font-weight: 900;
-    padding: 10px;
+    padding-top: 10px;
 }
 h2{
     font-family: sans-serif;
@@ -260,4 +256,15 @@ ul{
 }
 em{
     font-weight: 600;
+}
+.container{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background-color: var(--color-grey-2);
+    z-index: -1;
+}
+.container p{
+    color: var(--color-grey0);
 }
