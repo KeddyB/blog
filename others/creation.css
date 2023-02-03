@@ -171,9 +171,6 @@ h1{
     margin: 0 0.4rem;
     transition: all .4s ease-in-out;
 }
-.contact-icon a:hover{
-    background-color: var(--color-secondary);
-}
 .contact-icon a i{
     display: flex;
     align-items: center;
@@ -259,4 +256,14 @@ ol{
   font-size: 21px;
   padding: 0 35px;
   color: var(--color-white);
+}
+footer{
+    align-items: center;
+    margin-top: 50px;
+    height: 200px;
+    position: absolute;
+    background-color: var(--color-secondary);
+    z-index: -1;
+    left: 0;
+    width: 100%;
 }
