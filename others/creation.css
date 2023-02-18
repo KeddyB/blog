@@ -34,9 +34,9 @@
 }
 body{
     font-family: poppins, "sans-serif";
-    width: 96%;
+    width: 80%;
     background: var(--color-grey-5);
-    padding-left: 4%;
+    padding-left: 25%;
 }
 .btn{
     width: 72px;
@@ -200,8 +200,9 @@ h2{
     font-weight: 550;
 }
 img{
+    align-items: center;
     object-fit: cover;
-    width: 540px;
+    width: 750px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 5%;
