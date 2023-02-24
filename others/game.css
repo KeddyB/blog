@@ -210,10 +210,24 @@ h1{
     font-family: 'Press Start 2P', cursive;
     padding-top: 50px;
     text-align: center;
+    color: var(--color-secondary);
 }
 #container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+.item{
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.item img{
+    
+    border-radius: 5px;
+    border: 1px solid black;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
 }
 footer{
     align-items: center;
