@@ -217,17 +217,20 @@ h1{
     grid-template-columns: repeat(3, 1fr);
 }
 .item{
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 30px;
+    box-shadow: 0px 1px 15px rgba(0,0,0,.1);
 }
 .item img{
-    
-    border-radius: 5px;
-    border: 1px solid black;
+    border-top: 4px solid var(--color-secondary);
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-
+}
+.item p{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    text-align: center;
 }
 footer{
     align-items: center;
