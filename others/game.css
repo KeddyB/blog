@@ -33,7 +33,10 @@
     box-sizing: border-box;
 }
 body{
-    
+    font-family: poppins, "sans-serif";
+    width: 80%;
+    background: var(--color-grey-5);
+    padding-left: 20%;
 }
 .btn{
     width: 72px;
@@ -50,7 +53,7 @@ body{
     box-shadow: 0 1px 15px rgba(0,0,0,.3);
     font-weight: 600;
 }
-/*this is th button for cookies*/
+/*this is the button for cookies*/
 .wrapper{
     position: fixed;
     bottom: 30px;
@@ -126,14 +129,6 @@ body{
     transform: scale(.9);
 }
 
-a{
-    text-decoration: none;
-    position: relative;
-    color: inherit;
-}
-h1{
-    
-}
 
 .theme-btn{
     top: 5%;
@@ -167,15 +162,18 @@ h1{
     position: relative;
     margin-left: 23%;
 }
+a{
+    text-decoration: none;
+    position: relative;
+}
 
 .contact-icon{
     display: flex;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    align-items:center;
+    justify-content: center;
 }
 .contact-icon a{
-    display: flex;
     align-items: center;
     color: var(--color-white);
     background-color: var(--color-grey-5);
@@ -188,10 +186,9 @@ h1{
     transition: all .4s ease-in-out;
 }
 .contact-icon a i{
-    display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .contact-icon a .face{
   color: blue;
@@ -207,6 +204,12 @@ h1{
 }
 .contact-icon a .insta{
   color: purple;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 50px;
+    text-align: center;
 }
 footer{
     align-items: center;
