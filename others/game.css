@@ -211,6 +211,10 @@ h1{
     padding-top: 50px;
     text-align: center;
 }
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 footer{
     align-items: center;
     margin-top: 50px;
