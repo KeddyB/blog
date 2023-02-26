@@ -49,22 +49,6 @@
     font-weight: 600;
 }
 /*this is the button for cookies*/
-.wrapper{
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
-    background: var(--color-grey-5);
-    max-width: 400px;
-    border-radius: 3%;
-    text-align: center;
-    padding: 25px 25px 25px 25px;
-    box-shadow: 0px 1px 15px rgba(0,0,0,.1);
-}
-.wrapper img{
-    max-width: 90px;
-    animation: image 6s linear;
-    border-radius: 50%;
-}
 .wrapper.hide{
     position: absolute;
     opacity: 0%;
@@ -76,23 +60,7 @@
         transform: rotate(720deg);
     }
 }
-.wrapper contents{
-    margin-top: 10px;
-}
-.contents header{
-    font-size: 25px;
-    font-weight: 350;
-}
-.contents p{
-    color: black;
-    margin: 5px 0 20px 0;
-}
-.contents .buttons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 .buttons button{
     background-color: rgb(55, 211, 120);
     border: none;
@@ -194,7 +162,7 @@ span{
     font-size: large;
 }
 footer{
-    align-items: center;
+    text-align: center;
     margin-top: 50px;
     height: 200px;
     position: absolute;
@@ -243,6 +211,23 @@ footer{
         pointer-events: none;
         position: relative;
         margin-left: 23%;
+    }
+    /*wrapper for cookie box*/
+    .wrapper{
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background: var(--color-grey-5);
+        max-width: 400px;
+        border-radius: 3%;
+        text-align: center;
+        padding: 25px 25px 25px 25px;
+        box-shadow: 0px 1px 15px rgba(0,0,0,.1);
+    }
+    .wrapper img{
+        max-width: 70px;
+        animation: image 6s linear;
+        border-radius: 50%;
     }
     .contact-icon{
         display: flex;
@@ -310,6 +295,76 @@ footer{
         width: 53px;
         height: 53px;
     } 
+    /*cookie box*/
+    .wrapper{
+        text-align: center;
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background: var(--color-grey-5);
+        max-width: 400px;
+        height: 300px;
+        border-radius: 3%;
+        padding: 15px 15px 15px 15px;
+        box-shadow: 0px 1px 15px rgba(0,0,0,.1);
+    }
+    .wrapper img{
+        max-width: 70px;
+        animation: image 6s linear;
+        border-radius: 50%;
+    }
+    .wrapper .contents{
+        margin-top: 10px;
+    }
+    .contents header{
+        font-size: 25px;
+        font-weight: 350;
+        top: 20px;
+        left: 10%;
+    }
+    .contents p{
+        font-size: 18px;
+        color: black;
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+    .contents .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 10px;
+    }
+    .buttons button{
+        background-color: rgb(55, 211, 120);
+        border: none;
+        max-width: 100px;
+        border-radius: 3px;
+        outline: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--color-white);
+        cursor: pointer;
+    }
+    .buttons button:hover{
+        font-size: 17px;
+    }
+    .buttons a{
+        color: var(--color-secondary);
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .buttons a:hover{
+        font-size: 15px;
+    }
+    
+    .btn:hover{
+        width: 75px;
+        height: 27px;
+    }
+    .btn:active{
+        box-shadow: none;
+        transform: scale(.9);
+    }
     .contact-icon{
         display: flex;
         margin-top: 1rem;
@@ -377,7 +432,77 @@ footer{
         width: 43px;
         height: 43px;
     }
+    /*cookie box*/
+    .wrapper{
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background: var(--color-grey-5);
+        max-width: 100%;
+        height: 180px;
+        border-radius: 3%;
+        padding: 15px 15px 15px 15px;
+        box-shadow: 0px 1px 15px rgba(0,0,0,.1);
+    }
+    .wrapper img{
+        max-width: 40px;
+        animation: image 6s linear;
+        border-radius: 50%;
+    }
+    .wrapper .contents{
+        margin-top: 10px;
+    }
+    .contents header{
+        position: absolute;
+        font-size: 17px;
+        font-weight: 350;
+        top: 20px;
+        left: 10%;
+    }
+    .contents p{
+        font-size: 15px;
+        color: black;
+        line-height: 14px;
+        padding-bottom: 5px;
+    }
+    .contents .buttons{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        grid-gap: 10px;
+    }
+    .buttons button{
+        background-color: rgb(55, 211, 120);
+        border: none;
+        max-width: 100px;
+        border-radius: 3px;
+        outline: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--color-white);
+        cursor: pointer;
+    }
+    .buttons button:hover{
+        font-size: 17px;
+    }
+    .buttons a{
+        color: var(--color-secondary);
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .buttons a:hover{
+        font-size: 15px;
+    }
     
+    .btn:hover{
+        width: 75px;
+        height: 27px;
+    }
+    .btn:active{
+        box-shadow: none;
+        transform: scale(.9);
+    }
     .contact-icon{
         display: flex;
         margin-top: .5rem;
@@ -444,6 +569,77 @@ footer{
         transform:translateY(-5px);
         width: 38px;
         height: 38px;
+    }
+    /*cookie box*/
+    .wrapper{
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background: var(--color-grey-5);
+        max-width: 100%;
+        max-height: 200px;
+        border-radius: 3%;
+        padding: 5px 5px 5px 5px;
+        box-shadow: 0px 1px 15px rgba(0,0,0,.1);
+    }
+    .wrapper img{
+        max-width: 30px;
+        animation: image 6s linear;
+        border-radius: 50%;
+    }
+    .wrapper .contents{
+        margin-top: 10px;
+    }
+    .contents header{
+        position: absolute;
+        font-size: 17px;
+        font-weight: 350;
+        top: 5px;
+        left: 10%;
+    }
+    .contents p{
+        font-size: 15px;
+        color: black;
+        line-height: 14px;
+        padding-bottom: 5px;
+    }
+    .contents .buttons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        grid-gap: 10px;
+    }
+    .buttons button{
+        background-color: rgb(55, 211, 120);
+        border: none;
+        max-width: 100px;
+        border-radius: 3px;
+        outline: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--color-white);
+        cursor: pointer;
+    }
+    .buttons button:hover{
+        font-size: 17px;
+    }
+    .buttons a{
+        color: var(--color-secondary);
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .buttons a:hover{
+        font-size: 15px;
+    }
+    
+    .btn:hover{
+        width: 75px;
+        height: 27px;
+    }
+    .btn:active{
+        box-shadow: none;
+        transform: scale(.9);
     }
     .contact-icon{
         display: flex;
