@@ -159,7 +159,14 @@ span{
     justify-content: center;
 }
 .play i{
-    font-size: large;
+    font-size: 30px;
+    padding: 10px;
+}
+.git{
+    color: black;
+}
+.fa-play{
+    color: var(--color-secondary);
 }
 footer{
     text-align: center;
