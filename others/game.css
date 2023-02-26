@@ -22,7 +22,7 @@
     --color-grey-1:#6c7983;
     --color-grey-2:#6c7983;
     --color-grey-3:#3c4042;
-    --color-grey-4:#454e56;
+    --color-grey-4:#cdd7e0;
     --color-grey-5: white;
     --color-grey-6:#12181b;
 }
@@ -123,25 +123,6 @@
     box-shadow: none;
     transform: scale(.9);
 }
-
-
-.theme-btn{
-    top: 5%;
-    right: 3%;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: var(--color-grey-4);
-    cursor: pointer;
-    position: fixed;
-    box-shadow: 0 1px 15px rgba(0,0,0,.3);
-    transition: all .25s ease-in-out;
-}
-.theme-btn:hover{
-    transform:translateY(-5px);
-    width: 53px;
-    height: 53px;
-}
 .theme-btn:active{
     box-shadow: none;
     transform: scale(.5);
@@ -183,23 +164,29 @@ a{
   color: purple;
 }
 
-
+span{
+    color: var(--color-grey-3);
+}
 .item{
     margin-top: 30px;
     box-shadow: 0px 1px 15px rgba(0,0,0,.1);
+    background-color: var(--color-grey-4);
+    border-radius: 5px;
 }
 .item img{
-    border-top: 4px solid var(--color-secondary);
     max-width: 100%;
     max-height: 100%;
     object-fit: scale-down;
 }
 .item p{
+    border-bottom: 4px solid var(--color-secondary);
     font-family: 'Press Start 2P', cursive;
     font-size: 10px;
     text-align: center;
+    color: var(--color-grey-3);
 }
 .play{
+    margin: 5px;
     display: flex;
     justify-content: center;
 }
@@ -225,6 +212,38 @@ footer{
         background: var(--color-grey-5);
         padding-left: 20%;
     }
+    .theme-btn{
+        top: 5%;
+        right: 3%;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: var(--color-grey-4);
+        cursor: pointer;
+        position: fixed;
+        box-shadow: 0 1px 15px rgba(0,0,0,.3);
+        transition: all .25s ease-in-out;
+    }
+    .theme-btn:hover{
+        transform:translateY(-5px);
+        width: 53px;
+        height: 53px;
+    }
+    .theme-btn:active{
+        box-shadow: none;
+        transform: scale(.5);
+    }
+    .theme-btn i{
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-size: 1.4rem;
+        color: var(--color-grey-2);
+        pointer-events: none;
+        position: relative;
+        margin-left: 23%;
+    }
     .contact-icon{
         display: flex;
         margin-top: 1.4rem;
@@ -245,12 +264,15 @@ footer{
     }
     h2{
         font-size: 35px;
+        color: var(--color-grey-3);
     }
     .p{
         font-size: 20px;
+        color: var(--color-grey-3);
     }
     .item p{
         font-size: 15px;
+        color: var(--color-grey-3);
     }
     h1{
         font-family: 'Press Start 2P', cursive;
@@ -271,6 +293,23 @@ footer{
         background: var(--color-grey-5);
         padding-left: 18%;
     }
+    .theme-btn{
+        top: 5%;
+        right: 3%;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: var(--color-grey-4);
+        cursor: pointer;
+        position: fixed;
+        box-shadow: 0 1px 15px rgba(0,0,0,.3);
+        transition: all .25s ease-in-out;
+    } 
+    .theme-btn:hover{
+        transform:translateY(-5px);
+        width: 53px;
+        height: 53px;
+    } 
     .contact-icon{
         display: flex;
         margin-top: 1rem;
@@ -318,6 +357,24 @@ footer{
         background: var(--color-grey-5);
         padding-left: 10%;
     }
+    .theme-btn{
+        top: 5%;
+        right: 3%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: var(--color-grey-4);
+        cursor: pointer;
+        position: fixed;
+        box-shadow: 0 1px 15px rgba(0,0,0,.3);
+        transition: all .25s ease-in-out;
+    }
+    .theme-btn:hover{
+        transform:translateY(-5px);
+        width: 43px;
+        height: 43px;
+    }
+    
     .contact-icon{
         display: flex;
         margin-top: .5rem;
@@ -364,6 +421,23 @@ footer{
         width: 94%;
         background: var(--color-grey-5);
         padding-left: 6%;
+    }
+    .theme-btn{
+        top: 5%;
+        right: 3%;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: var(--color-grey-4);
+        cursor: pointer;
+        position: fixed;
+        box-shadow: 0 1px 15px rgba(0,0,0,.3);
+        transition: all .25s ease-in-out;
+    }
+    .theme-btn:hover{
+        transform:translateY(-5px);
+        width: 38px;
+        height: 38px;
     }
     .contact-icon{
         display: flex;
