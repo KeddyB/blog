@@ -342,12 +342,15 @@ footer{
     }
     h2{
         font-size: 24px;
+        color: var(--color-grey-3);
     }
     .p{
         font-size: 20px;
+        color: var(--color-grey-3);
     }
     .item p{
         font-size: 15px;
+        color: var(--color-grey-3);
     }
 }
 @media (min-width: 500px) and (max-width: 750px){
@@ -402,17 +405,20 @@ footer{
     }
     #container{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 13px;
     }
     h2{
         font-size: 23px;
+        color: var(--color-grey-3);
     }
     .p{
         font-size: 17px;
+        color: var(--color-grey-3);
     }
     .item p{
         font-size: 15px;
+        color: var(--color-grey-3);
     }
 }
 @media (max-width: 499px){
@@ -470,13 +476,16 @@ footer{
     }
     h2{
         font-size: 20px;
+        color: var(--color-grey-3);
     }
     .p{
         font-size: 17px;
         line-height: 20px;
+        color: var(--color-grey-3);
     }
     .item p{
         font-size: 20px;
+        color: var(--color-grey-3);
     }
     
 }
