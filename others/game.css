@@ -171,7 +171,6 @@ span{
 footer{
     text-align: center;
     margin-top: 50px;
-    height: 200px;
     position: absolute;
     background-color: var(--color-secondary);
     z-index: -1;
