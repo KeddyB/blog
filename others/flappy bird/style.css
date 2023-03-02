@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+canvas{
+    width: 360px;
+    height: 640px;
+    background-image: url(./flappybirdbg.png);
+}
+p{
+    color: aqua;
+    font-family: poppins;
+}
