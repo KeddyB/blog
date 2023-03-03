@@ -1,0 +1,3 @@
+[submodule "others/fighting-game"]
+    path = others/fighting-game
+    url = "http://github.com/KeddyB/blog.git"
