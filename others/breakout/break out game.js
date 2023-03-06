@@ -189,7 +189,6 @@ function changeDirection(){
 
 buttonPlay.addEventListener('click', () => {
     if (timerId){
-        startGame()
         hitPosition = null
         clearInterval(timerId)
         timerId = null
