@@ -32,6 +32,8 @@ let velocityY = 0
 let gravity = .5
 let gameOver = false
 let score = 0
+let start = false;
+let scoreArray = []
 
 window.onload = function(){
     canvas = document.getElementById("canvas1");
@@ -54,11 +56,37 @@ window.onload = function(){
     requestAnimationFrame(update)
     setInterval(placePipes, 1500)
 
-    document.addEventListener("keydown", (e)=>{
-        if(e.code == "Space" || e.code == "ArrowUp"){
+    document.addEventListener("touchstart", (e)=>{
+        if(e.type == "touchstart"){
             velocityY = -6
 
             if(gameOver){
+                //High score
+                scoreArray.push(score)
+                let max = (Math.max(...scoreArray))
+
+                document.querySelector("span").innerHTML = max
+                
+                bird.y = birdY
+                pipeArray = []
+
+                score = 0
+                gameOver = false
+            }
+        }
+    })
+
+    document.addEventListener("keydown", (e)=>{
+        if(e.key == "Space" || e.key == "ArrowUp"){
+            velocityY = -6
+
+            if(gameOver){
+                //High score
+                scoreArray.push(score)
+                let max = (Math.max(...scoreArray))
+
+                document.querySelector("span").innerHTML = max
+                
                 bird.y = birdY
                 pipeArray = []
 
@@ -105,12 +133,13 @@ function update(){
 
     //score
     ctx.fillStyle = "white"
-    ctx.font = "40px sans-serif"
-    ctx.fillText(score, 5, 45)
+    ctx.font = "25px sans-serif"
+    ctx.fillText(score, 10, 50)
 
     //gameover
+    ctx.font = "30px sans-serif"
     if(gameOver){
-        ctx.fillText("Game Over", 4, 90)
+        ctx.fillText("GAME OVER", 87, 320)
     }
 }
 

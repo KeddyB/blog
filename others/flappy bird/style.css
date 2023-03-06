@@ -1,6 +1,12 @@
 body{
     text-align: center;
     background-color: black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 canvas{
     width: 360px;
@@ -8,6 +14,6 @@ canvas{
     background-image: url(./flappybirdbg.png);
 }
 p{
-    color: aqua;
-    font-family: poppins;
+    color: skyblue;
+    font-family: 'Press Start 2P', cursive;
 }
