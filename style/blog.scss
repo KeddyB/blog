@@ -46,11 +46,6 @@ a{
     font-family: inherit;
 }
 .blogs{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1.4rem;
-    margin-top: 3rem;
-    border-radius: 7px;
     .blog{
         text-align: center;
         position: relative;
@@ -238,7 +233,12 @@ a{
         grid-gap: 15px;
     }
 }
-@media (min-width: 751px) and (max-width: 1099px) {
+@media (min-width: 700px) and (max-width: 1099px) {
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 15px;
+    }
     body{
         font-family: poppins, "sans-serif";
         width: 88%;
@@ -357,11 +357,6 @@ a{
         text-align: center;
         color: var(--color-secondary);
     }
-    #container{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-    }
     h2{
         font-size: 24px;
         color: var(--color-grey-3);
@@ -375,7 +370,7 @@ a{
         color: var(--color-grey-3);
     }
 }
-@media (min-width: 500px) and (max-width: 750px){
+@media (min-width: 450px) and (max-width: 699px){
     body{
         font-family: poppins, "sans-serif";
         width: 90%;
