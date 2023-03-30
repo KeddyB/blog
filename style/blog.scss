@@ -46,6 +46,10 @@ a{
     font-family: inherit;
 }
 .blogs{
+    display: grid;
+    grid-gap: 1.4rem;
+    margin-top: 3rem;
+    border-radius: 7px;
     .blog{
         text-align: center;
         position: relative;
@@ -229,16 +233,13 @@ a{
     }
     .blogs{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 15px;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-gap: 1.4rem;
+        margin-top: 3rem;
+        border-radius: 7px;
     }
 }
-@media (min-width: 700px) and (max-width: 1099px) {
-    .blogs{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 15px;
-    }
+@media (min-width: 751px) and (max-width: 1099px) {
     body{
         font-family: poppins, "sans-serif";
         width: 88%;
@@ -357,6 +358,11 @@ a{
         text-align: center;
         color: var(--color-secondary);
     }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
     h2{
         font-size: 24px;
         color: var(--color-grey-3);
@@ -369,8 +375,15 @@ a{
         font-size: 15px;
         color: var(--color-grey-3);
     }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-gap: 1.4rem;
+        margin-top: 3rem;
+        border-radius: 7px;
+    }
 }
-@media (min-width: 450px) and (max-width: 699px){
+@media (min-width: 500px) and (max-width: 750px){
     body{
         font-family: poppins, "sans-serif";
         width: 90%;
@@ -506,6 +519,13 @@ a{
     .item p{
         font-size: 15px;
         color: var(--color-grey-3);
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-gap: 1.4rem;
+        margin-top: 3rem;
+        border-radius: 7px;
     }
 }
 @media (max-width: 499px){
@@ -645,5 +665,11 @@ a{
         font-size: 20px;
         color: var(--color-grey-3);
     }
-    
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) ;
+        grid-gap: 1.4rem;
+        margin-top: 3rem;
+        border-radius: 7px;
+    }
 }
