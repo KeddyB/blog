@@ -4,6 +4,8 @@ themeBtn.addEventListener('click', ()=>{
     let element = document.body
     element.classList.toggle('light-mode')
 })
+
+//cookie accept
 const cookieBox = document.querySelector(".wrapper");
 acceptBtn = cookieBox.querySelector('.buttons button')
 
